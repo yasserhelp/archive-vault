@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Archive Vault | yasser.help</title>
+  <meta name="author" content="yasser.help" />
+  <meta name="description" content="The Archive Vault – An immersive digital experience created by yasser.help" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="error-message" id="errorMessage"></div>
+  <div class="fallback-bg" id="fallbackBg"></div>
+
+  <div class="audio-enable" id="audioEnable">
+    <p>ENTER EXPERIENCE<br />WITH AUDIO</p>
+    <button class="enable-button" id="enableBtn">START</button>
+  </div>
+
+  <div class="preloader" id="preloader">
+    <span id="counter">[000]</span>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <p class="text-element description">
+    THE ARCHIVE COLLECTS RECORDS OF ABANDONED WORLDS AND LOST TECHNOLOGIES, WAITING TO BE DISCOVERED.
+  </p>
+
+  <!-- روابط الحسابات -->
+  <nav class="text-element nav-links">
+    <a href="https://www.linkedin.com/in/yasserhelp/" target="_blank">_LINKEDIN</a>
+    <a href="https://www.instagram.com/yasser.help" target="_blank">_INSTAGRAM</a>
+    <a href="https://www.youtube.com/@yasserhelp" target="_blank">_YOUTUBE</a>
+    <a href="https://github.com/yasserhelp" target="_blank">_GITHUB</a>
+  </nav>
+
+  <div class="text-element footer">
+    <p>
+      Err: [404 - SIGNAL LOST]<br />
+      SYSTEM TIME: CYCLE 2187.42<br />
+      <span style="opacity: 0.7; font-size: 0.6rem;">PRESS 'H' TO TOGGLE REFRACTION CONTROLS</span>
+    </p>
+  </div>
+
+  <p class="text-element division">
+    PERFORMANCE ANALYSIS: <span id="fpsCounter">0</span> FPS<br />
+    OPTICAL REFRACTION ENGINE: ONLINE<br />
+    ACCESS LEVEL: RESTRICTED.<br />
+    TRACE INITIATED: SOURCE UNKNOWN.
+  </p>
+
+  <p class="text-element signal">_Uplink Pending...</p>
+
+  <div class="text-element central-text">
+    THE VAULT RETAINS ECHOES OF CIVILIZATIONS ERASED BY TIME<br />
+    DEAD SYSTEMS. BROKEN SIGNALS. MYTHS WRITTEN IN CODE.
+  </div>
+
+  <!-- توقيع الموقع -->
+  <div class="text-element" style="bottom:1rem;left:50%;transform:translateX(-50%);text-align:center;font-size:0.8rem;opacity:0.8;">
+    
+    
+  </div>
+
+  <!-- Audio elements -->
+  <audio id="startClickSound" preload="auto">
+    <source src="assets/audio/preloader-2s-001.mp3" type="audio/mpeg" />
+  </audio>
+
+  <audio id="preloaderSound" preload="auto">
+    <source src="assets/audio/preloader-3s-002.mp3" type="audio/mpeg" />
+  </audio>
+
+  <audio id="hoverSound" preload="auto">
+    <source src="assets/audio/hover.mp3" type="audio/mpeg" />
+  </audio>
+
+  <audio id="backgroundMusic" loop preload="auto">
+    <source src="assets/audio/cinematic-02.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
